@@ -1,3 +1,9 @@
+###
+# This script changes the field names for LEHD data. When the data is downloaded from 
+# OnTheMap, attributes are alphanumeric and this script will evaluate each field title and replace
+# it with a description from: https://lehd.ces.census.gov/data/lodes/LODES7/LODESTechDoc7.3.pdf
+###
+
 # Import geoprocessing
 import arcpy
 
